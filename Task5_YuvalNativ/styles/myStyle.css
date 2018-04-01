@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,500,700,900&subset=hebrew');
+
+body {
+    direction: rtl;
+    color: #2e2e2e;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#logo {
+    float: left;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#h1first {
+    text-align: center;
+    padding-right: 55px;
+    font-size: 28pt;
+    padding-top: 65px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+#topBanner {
+    background-color: #008285;
+    height: 183px;
+    width: 960px;
+    box-shadow: 5px 5px 10px black;
+}
+
+    #topBanner h1:first-child {
+        display: inline-block;
+        color: white;
+        font-size: 22pt;
+        font-weight: 700;
+        margin-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    #topBanner h1:nth-child(2) {
+        display: inline-block;
+        color: white;
+        font-size: 22pt;
+        font-weight: 700;
+        padding-right: 130px;
+    }
+
+    #topBanner h1:nth-child(3) {
+        display: inline-block;
+        color: white;
+        font-size: 22pt;
+        font-weight: 700;
+        padding-right: 180px;
+        padding-left: 50px;
+    }
+
+    #topBanner img:nth-child(4) {
+        display: inline-block;
+        margin-right: 93px;
+    }
+
+    #topBanner p {
+        color: white;
+        font-weight: 900;
+        font-size: 45pt;
+        display: inline-block;
+        padding-right: 45px;
+        position: absolute;
+        padding-top: 30px;
+    }
+
+    #topBanner img:nth-child(6) {
+        display: inline-block;
+        margin-right: 155px;
+    }
+
+    #topBanner img:nth-child(8) {
+        display: inline-block;
+        margin-right: 130px;
+    }
+
+#banner {
+    background-color: #44555F;
+    height: 160px;
+    width: 960px;
+    background-position: center;
+    box-shadow: 5px 3px 10px black;
+}
+
+    #banner h1 {
+        color: white;
+        font-size: 35pt;
+        font-weight: 900;
+        text-align: center;
+        position: relative;
+        top: 35px;
+    }
+
+    #banner h2 {
+        color: white;
+        font-size: 24pt;
+        font-weight: 400;
+        text-align: center;
+        position: relative;
+        top: 45px;
+    }
+
+#arrow {
+    content: url(../images/arrow.png);
+    width: 61px;
+    height: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    bottom: 5px;
+    margin-bottom: 8px;
+}
+
+#middle p {
+    color: white;
+    font-weight: 400;
+    position: relative;
+    bottom: 180px;
+    left: 55px;
+    float: left;
+    font-size: 20px;
+}
+
+#sendbox {
+    background-color: white;
+    border: 2px #44555F solid;
+    display: inline-block;
+    width: 195px;
+    height: 200px;
+    color: #008285;
+    position: relative;
+    right: 750px;
+    bottom: 150px;
+    box-shadow: 5px 3px 10px #44555F;
+}
+
+#FullName {
+    border: #44555F 1px solid;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #EDEDED;
+}
+
+form {
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 170px;
+}
+
+#userTel {
+    border: #44555F 1px solid;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #EDEDED;
+}
+
+#userEmail {
+    border: #44555F 1px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #EDEDED;
+}
+
+#Send {
+    background-color: #008285;
+    border: #008285 1px solid;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    height: 25px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 5px;
+}
+
+#background {
+    background-color: #008285;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    bottom: 195px;
+    width: 800px;
+    height: 240px;
+    border-radius: 50px;
+    box-shadow: 5px 3px 10px black;
+    z-index: -1;
+}
+
+#down h1 {
+    font-size: 24pt;
+    padding-top: 10px;
+    text-align: center;
+    margin-right: 40px;
+    padding-bottom: 15px;
+}
+
+#down p {
+    padding-right: 20px;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+#rishum {
+    font-size: 15pt;
+    display: inline-block;
+    margin-right: 200px;
+    width: 425px;
+    font-weight: 500;
+    position: relative;
+    bottom: 150px;
+}
+
+#down a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 700;
+    font-size: 17pt;
+    position: relative;
+    bottom: 150px;
+}
+
+footer {
+    position: relative;
+    bottom: 130px;
+}
+
+#line {
+    content: url(../images/line.png);
+    width: 900px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+footer a:nth-child(2) {
+    margin-right: 405px;
+}
+
+footer a:nth-child(3) {
+    margin-right: 20px;
+}
